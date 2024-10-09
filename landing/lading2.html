@@ -17,12 +17,46 @@
 
     gtag('config', 'G-7SS07FXHTW');
     </script>
+    <!-- icons -->
+    <link rel="shortcut icon" type="image/x-icon" href="/favicon.ico">
+    <link rel="icon" href="/assets/img/icon-16x16.png" type="image/png" sizes="16x16">
+    <link rel="icon" href="/assets/img/icon-32x32.png" type="image/png" sizes="32x32">
+    <link rel="icon" href="/assets/img/icon-192x192.png" type="image/png" sizes="192x192">
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon-precomposed" href="/assets/img/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/img/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-title" content="{{ site.name }}" />
+    <meta name="msapplication-TileColor" content="#091C99">
+    <meta name="msapplication-TileImage" content="assets/img/icon-256x256.png">
+    <link rel="mask-icon" href="/favicon.svg" color="#091C99">
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <link rel="canonical" href="{{ site.url }}">
+    <meta name="theme-color" content="#091C99">
+
+    <!-- Facebook Open Graph -->
+    <meta property="og:locale" content="{{ page.lang | default: site.lang | default: 'en-US' }}">
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="{{ page.title }} - {{ site.slogan }}">
+    <meta property="og:description" content="{{ site.description }}">
+    <meta property="og:url" content="{{ site.url }}">
+    <meta property="og:site_name" content="{{ site.name }}">
+
+    <!-- twitter card -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="{{ page.title }} - {{ site.slogan }}">
+    <meta name="twitter:description" content="{{ site.description }}">
+    <meta name="twitter:site" content="@{{ site.twitter_username }}">
+    <meta name="twitter:image"
+    content="{{ site.logo }}">
+    <meta name="twitter:creator" content="@{{ site.twitter_username }}">
     <style>
         body {
             font-family: Arial, sans-serif;
             background-color: #f4f4f4;
         }
-        header {
+        header.landing {
             background: url('coworking-header.jpg') no-repeat center center;
             background-size: cover;
             color: #fff;
@@ -90,30 +124,31 @@
 </head>
 <body>
     <!-- nav Section -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Living Workspace</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav ms-auto">
-              <li class="nav-item">
-                <a class="nav-link" href="#" data-lang="es">Spanish</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" data-lang="en">English</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#" data-lang="pt">Portuguese</a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
-        
-    <!-- Header Section -->
     <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Living Workspace</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-lang="es">Spanish</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-lang="en">English</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#" data-lang="pt">Portuguese</a>
+                    </li>
+                </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!-- Header Section -->
+    <header class="landing">
         <div class="overlay">
             <div class="container">
                 <h1 class="display-4">Coworking Space in Buenos Aires</h1>
