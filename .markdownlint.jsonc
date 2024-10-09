@@ -1,0 +1,23 @@
+{
+    /*
+        This option sets the default behavior for all rules.
+        If set to true, all rules will be enabled by default.
+        If set to false, all rules will be disabled by default.
+    */
+    "default": true,
+
+    /*
+        MD033/no-inline-html: Inline HTML
+    */
+    "MD033": false,
+
+    /*
+        This is an example of customizing a specific rule (MD013).
+        You can adjust the rule's severity levels (warning or error)
+        or provide a custom error message.
+        MD013/line-length: Line length [Expected: 80; Actual: 92
+    */
+    "MD013": {
+        "line_length": 200
+    }
+}
