@@ -48,17 +48,17 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
         <h2 class="text-center">Gallery</h2>
         <div class="row gallery">
             <div class="col-md-4">
-                <div class="img-container">
+                <div class="img-container mb-2">
                     <img src="/assets/gallery/gallery1.jpg" alt="Office Space 1">
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="img-container">
+                <div class="img-container mb-2">
                     <img src="/assets/gallery/gallery2.jpg" alt="Office Space 2">
                 </div>
             </div>
             <div class="col-md-4">
-                <div class="img-container">
+                <div class="img-container mb-2">
                     <img src="/assets/gallery/gallery3.jpg" alt="Office Space 3">
                 </div>
             </div>
@@ -81,7 +81,7 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
             </div>
             <div class="mb-3">
                 <label for="phone" class="form-label">Phone</label>
-                <input type="tel" class="form-control" id="phone" required>
+                <input type="tel" class="form-control" id="phone" equired>
             </div>
             <button type="submit" class="btn btn-primary w-100">Submit</button>
         </form>
