@@ -13,12 +13,14 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
     </div>
 </header>
 
-
 <!-- features Section -->
 <section id="features" class="py-5">
     <div class="container text-center">
         <h2>Why Choose Our Coworking Space?</h2>
-        <p class="lead pb-3">Our coworking space in downtown Buenos Aires is designed for those who need a professional environment, enhanced privacy, and easy access to public transportation, just steps from the subway station.</p>
+        <p class="lead pb-3">
+            Our coworking space in downtown Buenos Aires is designed for those who need a professional environment,  
+            enhanced privacy, and easy access to public transportation, just steps from the subway station.
+        </p>
         <div class="features-grid">
             <div class="feature-item">
                 <h3>Uninterrupted Workspace</h3>
@@ -63,7 +65,6 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
         </div>
     </div>
 </section>
-
 
 <!-- Registration Section -->
 <section id="register" class="py-5">
