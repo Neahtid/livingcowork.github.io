@@ -50,6 +50,25 @@
             margin: 0 10px;
             text-decoration: none;
         }
+        /* feature */
+
+        h2 {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .features-grid {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            gap: 20px;
+        }
+
+        .feature-item {
+            background: #FFFFFF;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+        }
     </style>
 </head>
 <body>
@@ -65,11 +84,30 @@
     </div>
 </header>
 
-<!-- About Section -->
-<section id="about" class="py-5">
+
+<!-- features Section -->
+<section id="features" class="py-5">
     <div class="container text-center">
-        <h2>Why Choose Us?</h2>
+        <h2>Why Choose Our Coworking Space?</h2>
         <p class="lead">Our coworking space in downtown Buenos Aires is designed for those who need a professional environment, enhanced privacy, and easy access to public transportation, just steps from the subway station.</p>
+        <div class="features-grid">
+            <div class="feature-item">
+                <h3>Uninterrupted Workspace</h3>
+                <p>Work without distractions in a soundproof environment with reliable high-speed internet.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Privacy</h3>
+                <p>Private workstations and meeting rooms ensure that your sensitive work stays confidential.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Safety</h3>
+                <p>24/7 security and controlled access keep you and your belongings safe at all times.</p>
+            </div>
+            <div class="feature-item">
+                <h3>Comfort</h3>
+                <p>Ergonomic furniture and a fully equipped environment ensure your comfort while you work.</p>
+            </div>
+        </div>
     </div>
 </section>
 
@@ -90,6 +128,7 @@
         </div>
     </div>
 </section>
+
 
 <!-- Registration Section -->
 <section id="register" class="py-5">
@@ -118,7 +157,7 @@
     <div class="container">
         <p>&copy; 2024 Coworking Space Buenos Aires. All Rights Reserved.</p>
         <div class="footer-links">
-            <a href="#about">About</a>
+            <a href="#features">About</a>
             <a href="#gallery">Gallery</a>
             <a href="#register">Register</a>
         </div>
