@@ -1,13 +1,13 @@
 ---
 layout: page
-title: Hardware/Software Research and Development
+title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
 ---
 <!-- Header Section -->
 <header class="landing">
     <div class="overlay">
         <div class="container">
-            <h1 class="display-4">Coworking Space in Buenos Aires</h1>
-            <p class="lead">Uninterrupted work, privacy, safety, and comfort for freelancers, startups, and remote workers.</p>
+            <h1 class="display-4">Workspace in Buenos Aires</h1>
+            <p class="lead">Uninterrupted work, privacy, safety, and comfort for freelancers, students, startups, and remote workers.</p>
             <a href="#register" class="btn btn-primary btn-lg cta-button">Book Your Spot</a>
         </div>
     </div>
