@@ -81,7 +81,7 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
             </div>
             <div class="mb-3">
                 <label for="phone" class="form-label">Phone</label>
-                <input type="tel" class="form-control" id="phone" equired>
+                <input type="tel" class="form-control" id="phone" required>
             </div>
             <button type="submit" class="btn btn-primary w-100">Submit</button>
         </form>
