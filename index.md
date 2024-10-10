@@ -13,6 +13,34 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
     </div>
 </header>
 
+<section>
+    <div class="posts">
+        <ul class="posts-list">
+        {% for post in site.posts %}
+            <li class="post-link">
+            <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
+                {{ post.title }} 
+            </a>
+            </li>
+        {% endfor %}
+        {% if site.pages.size > 1 %}
+            <hr>
+            {% for page in site.pages %}
+            {% if page.title != "Home" %}
+                {% unless page.url contains "page2" or page.url contains "page3" %}
+                <li class="post-link">
+                    <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
+                    {{ page.title }} - {{ site.lang }}
+                    </a>
+                </li>
+                {% endunless %}
+            {% endif %}
+            {% endfor %}
+        {% endif %}
+        </ul>
+    </div>
+</section>
+
 <!-- features Section -->
 <section id="features" class="py-5">
     <div class="container text-center">

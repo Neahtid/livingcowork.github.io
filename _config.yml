@@ -35,7 +35,7 @@ twitter_username: LivingWorkspace
 github_username:  LivingWorkspace
 
 # Build settings
-theme: minima
+# theme: minima
 plugins:
   - jekyll-feed
 
