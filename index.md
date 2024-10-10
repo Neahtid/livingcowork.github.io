@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
+layout: home
+title: Home
 ---
 <!-- Header Section -->
 <header class="landing">
@@ -111,7 +111,7 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
                 <label for="phone" class="form-label">Phone</label>
                 <input type="tel" class="form-control" id="phone" required>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Submit</button>
+            <button type="submit" id="submit-register" class="btn btn-primary w-100">Submit</button>
         </form>
     </div>
 </section>
