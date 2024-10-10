@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
+title: Imagen Corporativa
 ---
 <!-- Gallery Section -->
 <section id="gallery" class="py-5 bg-light">
