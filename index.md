@@ -19,14 +19,14 @@ title: Home
         {% for post in site.posts %}
             <li class="post-link">
             <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }} 
+                {{ post.title }}
             </a>
             </li>
         {% endfor %}
         {% if site.pages.size > 1 %}
             <hr>
             {% for page in site.pages %}
-            {% if page.title != "Home" %}
+            {% if page.title != "Home" and page.title != "NotFound"  %}
                 {% unless page.url contains "page2" or page.url contains "page3" %}
                 <li class="post-link">
                     <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
