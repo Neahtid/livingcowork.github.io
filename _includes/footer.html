@@ -6,6 +6,11 @@
             <a href="/#features">About</a>
             <a href="/#gallery">Gallery</a>
             <a href="/#register">Register</a>
+            <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
+                <svg class="svg-icon orange">
+                  <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                </svg><span>Subscribe</span>
+              </a>
         </div>
     </div>
 </footer>
