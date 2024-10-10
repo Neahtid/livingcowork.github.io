@@ -1,0 +1,66 @@
+@charset "utf-8";
+
+$color-scheme-auto: false;
+$color-scheme-dark: false;
+
+
+// Default color scheme settings
+// These are overridden in classic.css and dark.scss
+
+$color-scheme-auto: true !default;
+$color-scheme-dark: false !default;
+
+
+// Light mode
+// ----------
+
+$lm-brand-color:           #828282 !default;
+$lm-brand-color-light:     scale-color($lm-brand-color, $lightness: 40%) !default;
+$lm-brand-color-dark:      scale-color($lm-brand-color, $lightness: -25%) !default;
+
+$lm-site-title-color:      $lm-brand-color-dark !default;
+
+$lm-text-color:            #111111 !default;
+$lm-background-color:      #fdfdfd !default;
+$lm-code-background-color: #eeeeff !default;
+
+$lm-link-base-color:       #2a7ae2 !default;
+$lm-link-visited-color:    scale-color($lm-link-base-color, $lightness: -15%) !default;
+$lm-link-hover-color:      $lm-text-color !default;
+
+$lm-border-color-01:       $lm-brand-color-light !default;
+$lm-border-color-02:       scale-color($lm-brand-color, $lightness: 35%) !default;
+$lm-border-color-03:       $lm-brand-color-dark !default;
+
+$lm-table-text-color:      scale-color($lm-text-color, $lightness: 18%) !default;
+$lm-table-zebra-color:     scale-color($lm-brand-color, $lightness: 46%) !default;
+$lm-table-header-bg-color: scale-color($lm-brand-color, $lightness: 43%) !default;
+$lm-table-header-border:   scale-color($lm-brand-color, $lightness: 37%) !default;
+$lm-table-border-color:    $lm-border-color-01 !default;
+
+// Mode selection
+// --------------
+
+$brand-color: $lm-brand-color;
+$brand-color-light: $lm-brand-color-light;
+$brand-color-dark: $lm-brand-color-dark;
+
+$site-title-color: $lm-site-title-color;
+
+$text-color: $lm-text-color;
+$background-color: $lm-background-color;
+$code-background-color: $lm-code-background-color;
+
+$link-base-color: $lm-link-base-color;
+$link-visited-color: $lm-link-visited-color;
+$link-hover-color: $lm-link-hover-color;
+
+$border-color-01: $lm-border-color-01;
+$border-color-02: $lm-border-color-02;
+$border-color-03: $lm-border-color-03;
+
+$table-text-color: $lm-table-text-color;
+$table-zebra-color: $lm-table-zebra-color;
+$table-header-bg-color: $lm-table-header-bg-color;
+$table-header-border: $lm-table-header-border;
+$table-border-color: $lm-table-border-color;
