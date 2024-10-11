@@ -8,31 +8,38 @@ permalink: /
 <!-- Header Section -->
 <header class="landing">
     <div class="overlay">
-        <div class="container">
-            <h1 class="display-4">
-            {% t pages.homeh1 %}
-            </h1>
-            <p class="lead">{% t pages.homeh2 %}</p>
-            <a href="#register" class="btn btn-primary btn-lg cta-button">
-            {% t pages.homecta %}
-            </a>
+        <div class="px-2">
+            <div class="row">
+                <!-- Lienzo -->
+                <div class="col-md-8">
+                    <h1 class="display-4">
+                    {% t pages.homeh1 %}
+                    </h1>
+                    <p class="lead">{% t pages.homeh2 %}</p>
+                    <a href="#register" class="btn btn-primary btn-lg cta-button">
+                    {% t pages.homecta %}
+                    </a>
+                </div>
+                <!-- Sidebar (List of Posts) -->
+                <div class="col-md-4">
+                    <div class="sidebar">
+                        <h5>{% t pages.precents %}</h5>
+                        <ul class="list-group">
+                        {%- assign posts = site.posts | sort: 'date' | reverse -%}
+                        {%- for post in posts -%}
+                        <li class="list-group-item">
+                            <a href="{{ post.url | relative_url }}">
+                            {{ post.title | escape }}
+                            </a>
+                        </li>
+                        {%- endfor -%}
+                        </ul>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </header>
-
-<section>
-    <div class="posts">
-        <ul class="posts-list">
-        {% for post in site.posts %}
-            <li class="post-link">
-            <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }}
-            </a>
-            </li>
-        {% endfor %}
-        </ul>
-    </div>
-</section>
 
 <!-- features Section -->
 <section id="features" class="py-5">
