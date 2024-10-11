@@ -1,14 +1,21 @@
 ---
 layout: home
 title: Home
+
+namespace: root
+permalink: /
 ---
 <!-- Header Section -->
 <header class="landing">
     <div class="overlay">
         <div class="container">
-            <h1 class="display-4">Workspace in Buenos Aires</h1>
-            <p class="lead">Uninterrupted work, privacy, safety, and comfort for freelancers, students, startups, and remote workers.</p>
-            <a href="#register" class="btn btn-primary btn-lg cta-button">Book Your Spot</a>
+            <h1 class="display-4">
+            {% t pages.homeh1 %}
+            </h1>
+            <p class="lead">{% t pages.homeh2 %}</p>
+            <a href="#register" class="btn btn-primary btn-lg cta-button">
+            {% t pages.homecta %}
+            </a>
         </div>
     </div>
 </header>
@@ -26,7 +33,7 @@ title: Home
         {% if site.pages.size > 1 %}
             <hr>
             {% for page in site.pages %}
-            {% if page.title != "Home" and page.title != "NotFound"  %}
+            {% if page.title != "Home" and page.title != "NotFound" and page.title.size > 0 %}
                 {% unless page.url contains "page2" or page.url contains "page3" %}
                 <li class="post-link">
                     <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">

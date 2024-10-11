@@ -5,7 +5,6 @@ title: Imagen Corporativa
 <!-- Gallery Section -->
 <section id="gallery" class="py-5 bg-light">
     <div class="container">
-        <h2 class="text-center">Imagen Corporativa</h2>
         <div class="row gallery">
             <div class="col-md-6">
                 <div class="img-container mb-2">

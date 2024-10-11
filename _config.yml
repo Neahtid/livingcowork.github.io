@@ -33,12 +33,20 @@ keywords: "coworking, Buenos Aires, remote work, freelancers, startups, students
 logo: "https://livingworkspace.github.io/assets/logo-black.png"
 twitter_username: LivingWorkspace
 github_username:  LivingWorkspace
+google_analytics: "G-7SS07FXHTW"
 
 # Build settings
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate
 
-google_analytics: "G-7SS07FXHTW"
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["pt", "en", "es"]
+
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+
 
 
 # Exclude from processing.
