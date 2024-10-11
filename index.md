@@ -9,9 +9,13 @@ permalink: /
 <header class="landing">
     <div class="overlay">
         <div class="container">
-            <h1 class="display-4">Workspace in Buenos Aires</h1>
-            <p class="lead">Uninterrupted work, privacy, safety, and comfort for freelancers, students, startups, and remote workers.</p>
-            <a href="#register" class="btn btn-primary btn-lg cta-button">Book Your Spot</a>
+            <h1 class="display-4">
+            {% t pages.homeh1 %}
+            </h1>
+            <p class="lead">{% t pages.homeh2 %}</p>
+            <a href="#register" class="btn btn-primary btn-lg cta-button">
+            {% t pages.homecta %}
+            </a>
         </div>
     </div>
 </header>

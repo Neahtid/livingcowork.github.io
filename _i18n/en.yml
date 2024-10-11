@@ -10,6 +10,9 @@ langs:
 pages:
   example: example
   includeexample: The following text is a Jekyll include liquid tag parameter
+  homeh1: Workspace in Buenos Aires
+  homeh2: Uninterrupted work, privacy, safety, and comfort for freelancers, students, startups, and remote workers.
+  homecta: Book Your Spot
 titles:
   pagination: Pagination
   next: Next
