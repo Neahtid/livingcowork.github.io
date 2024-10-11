@@ -1,7 +1,7 @@
  <!-- Footer -->
  <footer class="text-center">
     <div class="container">
-        <p>&copy; 2024 {{ site.title }} {% t global.tagline %}. All Rights Reserved.</p>
+        <p>&copy; 2024 {{ site.title }} {% t global.tagline %}. {% t pages.footrights %}</p>
         <div class="footer-links">
             {% if site.pages.size > 1 %}
                 {% for page in site.pages %}
@@ -14,13 +14,13 @@
                 {% endif %}
                 {% endfor %}
             {% endif %}
-            <a href="/#features">Why Choose Us</a>
-            <a href="/#gallery">Gallery</a>
-            <a href="/#register">Register</a>
+            <a href="/#features">{% t pages.hwhy %}</a>
+            <a href="/#gallery">{% t pages.hgallery %}</a>
+            <a href="/#register">{% t pages.hregitert %}</a>
             <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
                 <svg class="svg-icon orange">
                   <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                </svg><span>Subscribe</span>
+                </svg><span>{% t pages.footrsssub %}</span>
             </a>
         </div>
     </div>

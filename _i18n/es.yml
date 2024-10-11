@@ -25,6 +25,7 @@ pages:
   whyT4: Comodidad
   whyR4: Muebles ergonómicos y un entorno totalmente equipado aseguran su comodidad mientras trabaja.
 
+  hwhy: Por qué elegirnos
   hgallery: Galería
   hclose: Cerrar
   hregitert: Reserva tu lugar Ahora
@@ -32,6 +33,11 @@ pages:
   hregisterfe: Email
   hregisterfp: Teléfono
   hregisterfsub: Enviar
+
+  precents: Artículos recientes
+
+  footrights: Todos los Derechos Reservados.
+  footrsssub: Subscribir RSS
 
 titles:
   pagination: Paginación

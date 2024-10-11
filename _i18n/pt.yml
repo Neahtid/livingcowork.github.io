@@ -26,13 +26,19 @@ pages:
   whyT4: Conforto
   whyR4: Móveis ergonômicos e um ambiente totalmente equipado garantem seu conforto enquanto você trabalha.
 
+  hwhy: Por que nos escolher
   hgallery: Galeria
   hclose: Fechar
-  hregitert: Reserva seu lugar Agora
+  hregitert: Reserva seu lugar agora
   hregisterfn: Nome
   hregisterfe: Email
   hregisterfp: Telefone
   hregisterfsub: Enviar
+
+  precents: Postagens recentes
+
+  footrights: Todos os Dereitos Reservados.
+  footrsssub: RSS Inscriva-se
 
 titles:
   pagination: Paginatura
