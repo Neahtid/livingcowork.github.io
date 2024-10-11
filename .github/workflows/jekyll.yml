@@ -29,4 +29,4 @@ jobs:
         github_token: ${{ secrets.GITHUB_TOKEN }}
         publish_dir: ./_site
         publish_branch: gh-pages  # This specifies the branch to deploy to
-        force_orphan: true         # Force an orphan commit to ensure the branch starts fresh
+        force_orphan: true        # Force an orphan commit to ensure the branch starts fresh
