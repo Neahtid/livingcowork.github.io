@@ -10,17 +10,17 @@
           <ul class="navbar-nav ms-auto">
             {% if site.lang != "es" %}
               <li class="nav-item">
-                  <a class="nav-link" href="{# tl root es #}" data-lang="es">Spanish</a>
+                  <a class="nav-link" href="{% tl root es %}" data-lang="es">Spanish</a>
               </li>
             {% endif %}
             {% if site.lang != "en" %}
               <li class="nav-item">
-                  <a class="nav-link" href="{# tl root en #}" data-lang="en">English</a>
+                  <a class="nav-link" href="{% tl root en %}" data-lang="en">English</a>
               </li>
             {% endif %}
             {% if site.lang != "pt" %}
               <li class="nav-item">
-                  <a class="nav-link" href="{# tl root pt #}" data-lang="pt">Portuguese</a>
+                  <a class="nav-link" href="{% tl root pt %}" data-lang="pt">Portuguese</a>
               </li>
             {% endif %}
           </ul>
