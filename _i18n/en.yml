@@ -25,6 +25,14 @@ pages:
   whyT4: Comfort
   whyR4: Ergonomic furniture and a fully equipped environment ensure your comfort while you work.
 
+  hgallery: Gallery
+  hclose: Close
+  hregitert: Register Now
+  hregisterfn: Name
+  hregisterfe: Email
+  hregisterfp: Phone
+  hregisterfsub: Submit
+
 titles:
   pagination: Pagination
   next: Next

@@ -18,12 +18,20 @@ pages:
   whyR: Nuestro espacio de coworking en el centro de Buenos Aires está diseñado para aquellos que necesitan un entorno profesional, una privacidad mejorada y un fácil acceso al transporte público, a pocos pasos de la estación de metro.
   whyT1: Espacio de trabajo ininterrumpido
   whyR1: Trabaje sin distracciones en un entorno insonorizado con Internet confiable de alta velocidad.
-  whyt2: Privacidad
+  whyT2: Privacidad
   whyR2: Estaciones de trabajo privadas y salas de reuniones aseguran que su trabajo confidencial se mantenga confidencial.
   whyT3: Seguridad
   whyR3: Seguridad y acceso controlado 24/7 mantienen a usted y sus pertenencias seguras en todo momento.
   whyT4: Comodidad
   whyR4: Muebles ergonómicos y un entorno totalmente equipado aseguran su comodidad mientras trabaja.
+
+  hgallery: Galería
+  hclose: Cerrar
+  hregitert: Reserva tu lugar Ahora
+  hregisterfn: Nombre
+  hregisterfe: Email
+  hregisterfp: Teléfono
+  hregisterfsub: Enviar
 
 titles:
   pagination: Paginación

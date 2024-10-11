@@ -64,7 +64,7 @@ permalink: /
 <!-- Gallery Section -->
 <section id="gallery" class="py-5 bg-light">
     <div class="container">
-        <h2 class="text-center">Gallery</h2>
+        <h2 class="text-center">{% t pages.hgallery %}</h2>
         <!-- Carousel Wrapper -->
         <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-inner">
@@ -138,7 +138,9 @@ permalink: /
                 <img id="lightboxImage" src="" class="img-fluid" alt="">
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                {% t pages.hclose %}
+                </button>
             </div>
         </div>
     </div>
@@ -147,21 +149,21 @@ permalink: /
 <!-- Registration Section -->
 <section id="register" class="py-5">
     <div class="container">
-        <h2 class="text-center">Register Now</h2>
+        <h2 class="text-center">{% t pages.hregitert %}</h2>
         <form id="registerForm" class="col-md-6 mx-auto">
             <div class="mb-3">
-                <label for="name" class="form-label">Name</label>
+                <label for="name" class="form-label">{% t pages.hregisterfn %}</label>
                 <input type="text" class="form-control" id="name" required>
             </div>
             <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
+                <label for="email" class="form-label">{% t pages.hregisterfe %}</label>
                 <input type="email" class="form-control" id="email" required>
             </div>
             <div class="mb-3">
-                <label for="phone" class="form-label">Phone</label>
+                <label for="phone" class="form-label">{% t pages.hregisterfp %}</label>
                 <input type="tel" class="form-control" id="phone" required>
             </div>
-            <button type="submit" id="submit-register" class="btn btn-primary w-100">Submit</button>
+            <button type="submit" id="submit-register" class="btn btn-primary w-100">{% t pages.hregisterfsub %}</button>
         </form>
     </div>
 </section>
