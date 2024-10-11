@@ -1,9 +1,20 @@
  <!-- Footer -->
  <footer class="text-center">
     <div class="container">
-        <p>&copy; 2024 {{ site.title }}. All Rights Reserved.</p>
+        <p>&copy; 2024 {{ site.title }} {% t global.tagline %}. All Rights Reserved.</p>
         <div class="footer-links">
-            <a href="/#features">About</a>
+            {% if site.pages.size > 1 %}
+                {% for page in site.pages %}
+                {% if page.title != "Home" and page.title != "NotFound" and page.title.size > 0 %}
+                    {% unless page.url contains "page2" or page.url contains "page3" %}
+                    <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
+                    {{ page.title }} - {{ site.lang }}
+                    </a>
+                    {% endunless %}
+                {% endif %}
+                {% endfor %}
+            {% endif %}
+            <a href="/#features">Why Choose Us</a>
             <a href="/#gallery">Gallery</a>
             <a href="/#register">Register</a>
             <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
@@ -12,6 +23,5 @@
                 </svg><span>Subscribe</span>
             </a>
         </div>
-        <span class="tagline">{% t global.tagline %}</span>
     </div>
 </footer>

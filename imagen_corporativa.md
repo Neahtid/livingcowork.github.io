@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Imagen Corporativa
 ---
 <!-- Gallery Section -->

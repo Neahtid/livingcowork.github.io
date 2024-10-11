@@ -30,20 +30,6 @@ permalink: /
             </a>
             </li>
         {% endfor %}
-        {% if site.pages.size > 1 %}
-            <hr>
-            {% for page in site.pages %}
-            {% if page.title != "Home" and page.title != "NotFound" and page.title.size > 0 %}
-                {% unless page.url contains "page2" or page.url contains "page3" %}
-                <li class="post-link">
-                    <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
-                    {{ page.title }} - {{ site.lang }}
-                    </a>
-                </li>
-                {% endunless %}
-            {% endif %}
-            {% endfor %}
-        {% endif %}
         </ul>
     </div>
 </section>
