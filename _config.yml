@@ -39,7 +39,6 @@ google_analytics: "G-7SS07FXHTW"
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
-  - jekyll-paginate
 
 
 # jekyll-multiple-languages-plugin settings:
