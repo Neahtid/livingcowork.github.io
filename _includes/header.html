@@ -1,0 +1,30 @@
+<header>
+  <!-- nav Section -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+          <a class="navbar-brand" href="/">{{ site.title }}</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            {% if site.lang != "es" %}
+              <li class="nav-item">
+                  <a class="nav-link" href="{% tl root es %}" data-lang="es">Spanish</a>
+              </li>
+            {% endif %}
+            {% if site.lang != "en" %}
+              <li class="nav-item">
+                  <a class="nav-link" href="{% tl root en %}" data-lang="en">English</a>
+              </li>
+            {% endif %}
+            {% if site.lang != "pt" %}
+              <li class="nav-item">
+                  <a class="nav-link" href="{% tl root pt %}" data-lang="pt">Portuguese</a>
+              </li>
+            {% endif %}
+          </ul>
+          </div>
+      </div>
+  </nav>
+</header>

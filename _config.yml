@@ -18,21 +18,36 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Your awesome title
-email: your-email@example.com
+title: Living Workspace
+name: LivingWorkspace
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Your Private, Safe & Comfortable Workspace in Buenos Aires.
+  Enjoy uninterrupted work with privacy, safety, and comfort.
+
+  Perfect for freelancers, students, remote workers, startups, and small business owners.
+
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
-twitter_username: jekyllrb
-github_username:  jekyll
+url: "https://livingworkspace.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+slogan: "Privacy, Security and Comfort."
+keywords: "coworking, Buenos Aires, remote work, freelancers, startups, students, private office, safety, comfort"
+logo: "https://livingworkspace.github.io/assets/logo-black.png"
+twitter_username: LivingWorkspace
+github_username:  LivingWorkspace
+google_analytics: "G-7SS07FXHTW"
 
 # Build settings
-theme: minima
 plugins:
   - jekyll-feed
+  - jekyll-multiple-languages-plugin
+  - jekyll-paginate
+
+
+# jekyll-multiple-languages-plugin settings:
+languages: ["pt", "en", "es"]
+
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
+
+
 
 # Exclude from processing.
 # The following items will not be processed, by default.
