@@ -13,6 +13,19 @@ pages:
   homeh1: Espaço de trabalho em Buenos Aires
   homeh2: Trabalho ininterrupto, privacidade, segurança e conforto para freelancers, estudantes, startups e trabalhadores remotos.
   homecta: Reserve seu lugar
+
+  whyT: Por que escolher nosso espaço de coworking?
+  whyR: Nosso espaço de coworking no centro de Buenos Aires foi projetado para aqueles que precisam de um ambiente profissional, 
+      privacidade aprimorada e fácil acesso ao transporte público, a poucos passos da estação de metrô.
+  whyT1: Espaço de trabalho ininterrupto
+  whyR1: Trabalhe sem distrações em um ambiente à prova de som com Internet confiável de alta velocidade.
+  whyT2: Privacidade
+  whyR2: Estações de trabalho privadas e salas de reuniões garantem que seu trabalho sensível permaneça confidencial.
+  whyT3: Segurança
+  whyR3: Segurança 24/7 e acesso controlado mantêm você e seus pertences em segurança o tempo todo.
+  whyT4: Conforto
+  whyR4: Móveis ergonômicos e um ambiente totalmente equipado garantem seu conforto enquanto você trabalha.
+
 titles:
   pagination: Paginatura
   next: Prossima

@@ -66,6 +66,14 @@
 
       });
     }
+    $(document).ready(function() {
+        // When an image is clicked, open it in the modal
+        $('.gallery-img').on('click', function() {
+            var imgSrc = $(this).attr('src');
+            $('#lightboxImage').attr('src', imgSrc);
+            $('#lightboxModal').modal('show');
+        });
+    });
   </script>
 </body>
 

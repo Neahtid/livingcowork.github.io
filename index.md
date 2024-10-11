@@ -37,55 +37,112 @@ permalink: /
 <!-- features Section -->
 <section id="features" class="py-5">
     <div class="container text-center">
-        <h2>Why Choose Our Coworking Space?</h2>
+        <h2>{% t pages.whyT %}</h2>
         <p class="lead pb-3">
-            Our coworking space in downtown Buenos Aires is designed for those who need a professional environment,  
-            enhanced privacy, and easy access to public transportation, just steps from the subway station.
+            {% t pages.whyR %}
         </p>
         <div class="features-grid">
             <div class="feature-item">
-                <h3>Uninterrupted Workspace</h3>
-                <p>Work without distractions in a soundproof environment with reliable high-speed internet.</p>
+                <h3>{% t pages.whyT1 %}</h3>
+                <p>{% t pages.whyR1 %}</p>
             </div>
             <div class="feature-item">
-                <h3>Privacy</h3>
-                <p>Private workstations and meeting rooms ensure that your sensitive work stays confidential.</p>
+                <h3>{% t pages.whyT2 %}</h3>
+                <p>{% t pages.whyR2 %}</p>
             </div>
             <div class="feature-item">
-                <h3>Safety</h3>
-                <p>24/7 security and controlled access keep you and your belongings safe at all times.</p>
+                <h3>{% t pages.whyT3 %}</h3>
+                <p>{% t pages.whyR3 %}.</p>
             </div>
             <div class="feature-item">
-                <h3>Comfort</h3>
-                <p>Ergonomic furniture and a fully equipped environment ensure your comfort while you work.</p>
+                <h3>{% t pages.whyT4 %}</h3>
+                <p>{% t pages.whyR4 %}</p>
             </div>
         </div>
     </div>
 </section>
-
 <!-- Gallery Section -->
 <section id="gallery" class="py-5 bg-light">
     <div class="container">
         <h2 class="text-center">Gallery</h2>
-        <div class="row gallery">
-            <div class="col-md-4">
-                <div class="img-container mb-2">
-                    <img src="/assets/gallery/gallery1.jpg" alt="Office Space 1">
+        <!-- Carousel Wrapper -->
+        <div id="galleryCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+                <!-- Carousel Items (3 images per slide) -->
+                <div class="carousel-item active">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery1.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 1">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery2.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 2">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery3.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 3">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery4.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 4">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery5.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 5">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery6.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 6">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery7.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 7">
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div class="col-md-4">
-                <div class="img-container mb-2">
-                    <img src="/assets/gallery/gallery2.jpg" alt="Office Space 2">
-                </div>
-            </div>
-            <div class="col-md-4">
-                <div class="img-container mb-2">
-                    <img src="/assets/gallery/gallery3.jpg" alt="Office Space 3">
-                </div>
-            </div>
+            <!-- Carousel Controls -->
+            <button class="carousel-control-prev" type="button" data-bs-target="#galleryCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#galleryCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
         </div>
     </div>
 </section>
+
+<!-- Modal for Lightbox -->
+<div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="lightboxImage" src="" class="img-fluid" alt="">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <!-- Registration Section -->
 <section id="register" class="py-5">
