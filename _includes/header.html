@@ -2,7 +2,7 @@
   <!-- nav Section -->
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid">
-      {% if site.lang == "pt" and site.default_locale_in_subfolder != true %}
+      {% if site.lang == site.default_lang and site.default_locale_in_subfolder != true %}
         <a class="navbar-brand" href="{{ site.baseurl_root }}/">{{ site.title }}</a>
       {% else %}
         <a class="navbar-brand" href="{{ site.baseurl_root }}/{{ site.lang }}">{{ site.title }}</a>

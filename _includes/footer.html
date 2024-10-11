@@ -17,11 +17,21 @@
             <a href="/#features">{% t pages.hwhy %}</a>
             <a href="/#gallery">{% t pages.hgallery %}</a>
             <a href="/#register">{% t pages.hregitert %}</a>
-            <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
-                <svg class="svg-icon orange">
-                  <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                </svg><span>{% t pages.footrsssub %}</span>
-            </a>
+
+            {% if site.lang == site.default_lang and site.default_locale_in_subfolder != true %}
+                <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
+                    <svg class="svg-icon orange">
+                    <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                    </svg><span>{% t pages.footrsssub %}</span>
+                </a>
+            {% else %}
+                <a href="{{ 'feed.xml' }}" target="_blank">
+                    <svg class="svg-icon orange">
+                    <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                    </svg><span>{% t pages.footrsssub %}</span>
+                </a>
+            {% endif %}
+            
         </div>
     </div>
 </footer>
