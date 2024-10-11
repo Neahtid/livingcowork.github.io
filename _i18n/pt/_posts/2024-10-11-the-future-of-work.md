@@ -1,6 +1,6 @@
 ---
 layout: post
-title: O futuro do trabalho, por que os espaços de coworking com acomodação estão mudando o jogo
+title: O futuro do trabalho, Como os espaços de coworking de acomodação estão revolucionando a visão geral do trabalho
 cover: cover.jpg
 date: 2024-10-11 13:06:00
 categories: pt posts

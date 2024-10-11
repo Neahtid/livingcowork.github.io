@@ -28,7 +28,7 @@ permalink: /
                         {%- assign posts = site.posts | sort: 'date' | reverse -%}
                         {%- for post in posts -%}
                         <li class="list-group-item">
-                            <a href="{{ post.url | relative_url }}">
+                            <a href="{{ site.baseurl }}{{ post.url }}">
                             {{ post.title | escape }}
                             </a>
                         </li>

@@ -1,1 +1,41 @@
 // Placeholder to allow defining custom styles that override everything else.
+
+/* Tablets (768px and below) */
+@media only screen and (max-width: 768px) {
+    /* Your CSS styles for tablets */
+    body {
+        background-color: lightblue;
+    }
+    .container {
+        padding: 10px;
+    }
+    .home {
+
+        .sidebar {
+            margin-top: $spacing-unit * 1.3;
+        }
+    }
+}
+
+/* Smartphones in Landscape (576px and below) */
+@media only screen and (max-width: 576px) {
+    /* Your CSS styles for smartphones in landscape */
+    body {
+        background-color: lightyellow;
+    }
+    .container {
+        padding: 5px;
+    }
+}
+
+/* Smartphones in Portrait (480px and below) */
+@media only screen and (max-width: 480px) {
+    /* Your CSS styles for smartphones in portrait */
+    body {
+        background-color: lightgrey;
+    }
+    .container {
+        padding: 3px;
+    }
+}
+

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: The Future of Work, Why Coworking Spaces with Accommodation Are Changing the Game
+title: The Future of Work, How accommodation coworking spaces are revolutionizing work overview
 cover: cover.jpg
 date: 2024-10-11 13:06:00
 categories: en posts

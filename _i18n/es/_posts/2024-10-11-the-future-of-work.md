@@ -1,6 +1,6 @@
 ---
 layout: post
-title: El futuro del trabajo, por qué los espacios de coworking con alojamiento están cambiando el juego
+title: El futuro del trabajo, cómo los espacios de coworking con alojamiento están revolucionando el panorama laboral
 cover: cover.jpg
 date: 2024-10-11 13:06:00
 categories: es posts
