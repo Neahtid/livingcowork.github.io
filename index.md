@@ -10,11 +10,11 @@ permalink: /
     <div class="overlay">
         <div class="container">
             <h1 class="display-4">
-            {# t pages.homeh1 #}12
+            {% t pages.homeh1 %}
             </h1>
-            <p class="lead">{# t pages.homeh2 #}12</p>
+            <p class="lead">{% t pages.homeh2 %}</p>
             <a href="#register" class="btn btn-primary btn-lg cta-button">
-            {# t pages.homecta #}12
+            {% t pages.homecta %}
             </a>
         </div>
     </div>
