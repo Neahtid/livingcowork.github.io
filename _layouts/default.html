@@ -66,15 +66,6 @@
 
       });
     }
-    document.querySelectorAll('.nav-link').forEach(link => {
-      link.addEventListener('click', event => {
-        event.preventDefault();
-        const lang = link.getAttribute('data-lang');
-        alert(`lang: ${lang}`);
-        document.documentElement.setAttribute('lang', lang);
-        // Here you can add the logic to change the content of your page to the selected language
-      });
-    });
   </script>
 </body>
 

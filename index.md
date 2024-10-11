@@ -1,6 +1,9 @@
 ---
 layout: home
 title: Home
+
+namespace: root
+permalink: /
 ---
 <!-- Header Section -->
 <header class="landing">
@@ -26,7 +29,7 @@ title: Home
         {% if site.pages.size > 1 %}
             <hr>
             {% for page in site.pages %}
-            {% if page.title != "Home" and page.title != "NotFound"  %}
+            {% if page.title != "Home" and page.title != "NotFound" and page.title.size > 0 %}
                 {% unless page.url contains "page2" or page.url contains "page3" %}
                 <li class="post-link">
                     <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
