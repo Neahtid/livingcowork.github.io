@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.4"
-gem "jekyll-multiple-languages-plugin"
+# gem "jekyll-multiple-languages-plugin"
 gem "logger"
 gem "csv"
 gem "ostruct"
@@ -39,7 +39,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 #######################################
 # test
 #######################################
-group :test do
-  gem "jekyll-paginate"
-  gem "redcarpet"
-end
+# group :test do
+#   gem "jekyll-paginate"
+#   gem "redcarpet"
+# end
