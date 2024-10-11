@@ -1,6 +1,6 @@
 ---
-layout: page
-title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
+layout: home
+title: Home
 ---
 <!-- Header Section -->
 <header class="landing">
@@ -19,14 +19,14 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
         {% for post in site.posts %}
             <li class="post-link">
             <a class="post-title" href="{{ site.baseurl }}{{ post.url }}">
-                {{ post.title }} 
+                {{ post.title }}
             </a>
             </li>
         {% endfor %}
         {% if site.pages.size > 1 %}
             <hr>
             {% for page in site.pages %}
-            {% if page.title != "Home" %}
+            {% if page.title != "Home" and page.title != "NotFound"  %}
                 {% unless page.url contains "page2" or page.url contains "page3" %}
                 <li class="post-link">
                     <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
@@ -111,7 +111,7 @@ title: Your Private, Safe & Comfortable Workspace in Buenos Aires.
                 <label for="phone" class="form-label">Phone</label>
                 <input type="tel" class="form-control" id="phone" required>
             </div>
-            <button type="submit" class="btn btn-primary w-100">Submit</button>
+            <button type="submit" id="submit-register" class="btn btn-primary w-100">Submit</button>
         </form>
     </div>
 </section>
