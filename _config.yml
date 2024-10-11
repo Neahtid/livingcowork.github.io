@@ -38,7 +38,7 @@ google_analytics: "G-7SS07FXHTW"
 # Build settings
 plugins:
   - jekyll-feed
-  - jekyll-multiple-languages-plugin
+  # - jekyll-multiple-languages-plugin
 
 
 # jekyll-multiple-languages-plugin settings:
