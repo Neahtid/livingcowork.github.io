@@ -121,6 +121,35 @@ permalink: /
                                 <img src="/assets/gallery/gallery7.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 7">
                             </div>
                         </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery8.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 8">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery9.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 9">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery10.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 10">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery11.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 11">
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="img-container mb-2">
+                                <img src="/assets/gallery/gallery12.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 12">
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
