@@ -8,7 +8,7 @@ source "https://rubygems.org"
 # This will help ensure the proper Jekyll version is running.
 # Happy Jekylling!
 gem "jekyll", "~> 4.3.4"
-# gem "jekyll-multiple-languages-plugin"
+gem "jekyll-multiple-languages-plugin"
 gem "logger"
 gem "csv"
 gem "ostruct"
