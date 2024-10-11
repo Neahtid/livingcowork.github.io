@@ -4,6 +4,7 @@ title: Imagen Corporativa
 ---
 <!-- Gallery Section -->
 <section id="gallery" class="py-5 bg-light">
+    <h2 class="text-center">Imagen corporativa</h2>
     <div class="container">
         <div class="row gallery">
             <div class="col-md-6">
