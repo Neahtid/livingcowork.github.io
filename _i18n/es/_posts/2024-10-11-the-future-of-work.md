@@ -54,4 +54,4 @@ Entonces, ¿por qué conformarse con un espacio de coworking regular cuando pued
 
 ---
 
-Para reservar su espacio o obtener más información, [Reserve su lugar](/#Regístrese) y descubra cómo el entorno adecuado puede llevar su productividad a nuevas alturas.
+Para reservar su espacio o obtener más información, [Reserve su lugar](/es/#register) y descubra cómo el entorno adecuado puede llevar su productividad a nuevas alturas.

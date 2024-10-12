@@ -54,4 +54,4 @@ So why settle for a regular coworking space when you can have a workspace that f
 
 ---
 
-To book your space or find out more, [Reserve your Spot](/#register) and discover how the right environment can take your productivity to new heights.
+To book your space or find out more, [Reserve your Spot](/en/#register) and discover how the right environment can take your productivity to new heights.

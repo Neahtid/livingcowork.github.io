@@ -54,4 +54,4 @@ Então, por que se contentar com um espaço de coworking regular quando você po
 
 ----
 
-Para reservar seu espaço ou descobrir mais, [reserve seu local](/#registre) e descubra como o ambiente certo pode levar sua produtividade a novas alturas.
+Para reservar seu espaço ou descobrir mais, [reserve seu local](/#register) e descubra como o ambiente certo pode levar sua produtividade a novas alturas.

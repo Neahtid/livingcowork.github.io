@@ -55,7 +55,8 @@ layout: default
               {{ post.date |  default: "%a %-d-%b-%YY" | timeago }}
               {% else %}
                {{ mdate | date: date_format }}
-              {% endif %}            </small>
+              {% endif %}
+            </small>
           </li>
           {%- endfor -%}
         </ul>
