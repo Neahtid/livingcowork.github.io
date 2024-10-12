@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: notitle_sidebar
 title: Imagen Corporativa
 ---
 <!-- Gallery Section -->

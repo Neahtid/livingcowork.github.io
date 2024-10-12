@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: title_sidebar
 title: Bienvenido a Living Workspace
 cover: cover.jpg
 date:   2024-10-01 10:10:10

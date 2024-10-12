@@ -1,5 +1,5 @@
 ---
-layout: post
+layout: title_sidebar
 title: El futuro del trabajo, cómo los espacios de coworking con alojamiento están revolucionando el panorama laboral
 cover: cover.jpg
 date: 2024-10-11 13:06:00

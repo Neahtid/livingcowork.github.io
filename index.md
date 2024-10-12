@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: notitle_nosidebar
 title: Home
 
 namespace: root
