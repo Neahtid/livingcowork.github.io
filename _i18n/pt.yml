@@ -1,7 +1,6 @@
 global:
   tagline: Portugues
-  about: Riquardo
-  twitter: Twitter
+  about: Quem somos
 langs:
   pt: Português
   en: English
@@ -40,6 +39,7 @@ pages:
 titles:
   pagination: Paginatura
   next: Prossima
+  imagen_corporate: Imagem Corporativa
 
 jekyll_timeago:
   today: 'hoje'

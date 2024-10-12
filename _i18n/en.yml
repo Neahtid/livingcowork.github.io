@@ -1,7 +1,6 @@
 global:
   tagline: English
-  about: About
-  twitter: Twitter
+  about: About Us
 langs:
   pt: Português
   en: English
@@ -39,6 +38,7 @@ pages:
 titles:
   pagination: Pagination
   next: Next
+  imagen_corporate: Corporate Image
 
 jekyll_timeago:
   today: 'today'

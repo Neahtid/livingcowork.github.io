@@ -24,6 +24,8 @@ $lm-text-color:            #111111 !default;
 $lm-background-color:      #f4f4f4 !default;
 $lm-code-background-color: #eeeeff !default;
 
+$background-color-recents-sidebar: #fcfcfc;
+
 $lm-link-base-color:       #2a7ae2 !default;
 $lm-link-visited-color:    scale-color($lm-link-base-color, $lightness: -15%) !default;
 $lm-link-hover-color:      $lm-text-color !default;

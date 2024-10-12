@@ -1,6 +1,6 @@
 global:
   tagline: Español
-  about: Sobre
+  about: Nosotros
 langs:
   pt: Português
   en: English
@@ -39,6 +39,7 @@ pages:
 titles:
   pagination: Paginación
   next: Próximo
+  imagen_corporate: Imagen Corporativa
 
 jekyll_timeago:
   today: 'hoy'

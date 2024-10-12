@@ -44,11 +44,18 @@
     cursor: pointer;
 }
 
+.gallery {
+    img {
+        max-width: 100px;
+    }
+}
+
 // sidebar post list
 
 .sidebar {
     .list-group li {
-        background-color: $lm-background-color;
+        background-color: $background-color-recents-sidebar;
+        text-align: left;
     } 
 }
     
