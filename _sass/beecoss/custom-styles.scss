@@ -43,3 +43,12 @@
 .gallery-img {
     cursor: pointer;
 }
+
+// sidebar post list
+
+.sidebar {
+    .list-group li {
+        background-color: $lm-background-color;
+    } 
+}
+    
