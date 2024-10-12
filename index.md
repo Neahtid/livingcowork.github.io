@@ -29,8 +29,12 @@ permalink: /
                         {%- for post in posts -%}
                         <li class="list-group-item">
                             <a href="{{ site.baseurl }}{{ post.url }}">
-                            {{ post.title | escape }}
+                            {{ post.title | escape }} 
                             </a>
+                            <br>
+                            <small class="text-secondary">
+                            {{ post.date |  default: "%a %-d-%b-%Y" | timeago }}
+                            </small>
                         </li>
                         {%- endfor -%}
                         </ul>

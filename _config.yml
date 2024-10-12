@@ -39,7 +39,17 @@ google_analytics: "G-7SS07FXHTW"
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
+  - jekyll-timeago
 
+jekyll_timeago:
+  depth: 2
+  translations_path: '/_18n/*.yml'
+  default_locale: 'pt'
+  fallbacks: true
+  available_locales:
+    - 'en'
+    - 'es'
+    - 'pt'
 
 # jekyll-multiple-languages-plugin settings:
 languages: ["pt", "en", "es"]

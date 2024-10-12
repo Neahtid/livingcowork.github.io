@@ -2,14 +2,11 @@ global:
   tagline: Portugues
   about: Riquardo
   twitter: Twitter
-  github: GitHub
 langs:
   pt: Português
   en: English
   es: Español
 pages:
-  example: Esempio
-  includeexample: Il testo che segue è un parametro di Jekyll include liquid tag
   homeh1: Espaço de trabalho em Buenos Aires
   homeh2: Trabalho ininterrupto, privacidade, segurança e conforto para freelancers, estudantes, startups e trabalhadores remotos.
   homecta: Reserve seu lugar
@@ -37,9 +34,27 @@ pages:
 
   precents: Postagens recentes
 
-  footrights: Todos os Dereitos Reservados.
-  footrsssub: RSS Inscriva-se
+  footrights: Todos os Direitos Reservados.
+  footrsssub: RSS Inscreva-se
 
 titles:
   pagination: Paginatura
   next: Prossima
+
+jekyll_timeago:
+  today: 'hoje'
+  yesterday: 'ontem'
+  tomorrow: 'amanhã'
+  and: 'e'
+  suffix: 'atrás'
+  prefix: ''
+  suffix_future: 'em'
+  prefix_future: ''
+  years: 'anos'
+  year: 'ano'
+  months: 'meses'
+  month: 'mês'
+  weeks: 'semanas'
+  week: 'semana'
+  days: 'dias'
+  day: 'dia'

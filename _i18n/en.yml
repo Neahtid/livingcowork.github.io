@@ -2,14 +2,11 @@ global:
   tagline: English
   about: About
   twitter: Twitter
-  github: GitHub
 langs:
   pt: Português
   en: English
   es: Español
 pages:
-  example: example
-  includeexample: The following text is a Jekyll include liquid tag parameter
   homeh1: Workspace in Buenos Aires
   homeh2: Uninterrupted work, privacy, safety, and comfort for freelancers, students, startups, and remote workers.
   homecta: Book Your Spot
@@ -42,3 +39,21 @@ pages:
 titles:
   pagination: Pagination
   next: Next
+
+jekyll_timeago:
+  today: 'today'
+  yesterday: 'yesterday'
+  tomorrow: 'tomorrow'
+  and: 'and'
+  suffix: 'ago'
+  prefix: ''
+  suffix_future: 'in'
+  prefix_future: ''
+  years: 'years'
+  year: 'year'
+  months: 'months'
+  month: 'month'
+  weeks: 'weeks'
+  week: 'week'
+  days: 'days'
+  day: 'day'
