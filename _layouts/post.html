@@ -9,7 +9,7 @@ layout: default
       <header class="post-header">
         <h1 class="post-title p-name py-3" itemprop="name headline">{{ page.title | escape }}</h1>
         <p class="post-meta">
-          {%- assign date_format = site.minima.date_format | default: "%a %-d-%b-%Y" -%}
+          {%- assign date_format = site.minima.date_format | default: "%a %-d-%b-%Y %I:%M %p" -%}
           <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
             {{ page.date | date: date_format }}
           </time>
@@ -44,17 +44,21 @@ layout: default
           {%- assign posts = site.posts | sort: 'date' | reverse -%}
           {%- for post in posts -%}
           <li class="list-group-item">
+          {% if page.url == post.url %}
+            <span>{{ post.title | escape }} </span>
+          {% else %}
             <a href="{{ site.baseurl }}{{ post.url }}">
               {{ post.title | escape }} 
             </a>
+          {% endif %}
             <br>
             <small class="text-secondary">
               {%- assign date_format = site.minima.date_format | default: "%a %-d-%b-%Y %I:%M %p" -%}
               {%- assign mdate = post.date | date_to_xmlschema -%}
               {% if site.lang == site.default_lang %}
-              {{ post.date |  default: "%a %-d-%b-%YY" | timeago }}
+                {{ post.date | timeago }}
               {% else %}
-               {{ mdate | date: date_format }}
+                {{ mdate | date: date_format }}
               {% endif %}
             </small>
           </li>
