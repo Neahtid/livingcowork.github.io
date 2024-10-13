@@ -1,20 +1,29 @@
  <!-- Footer -->
  <footer class="text-center">
     <div class="container">
-        <p>&copy; 2024 {{ site.title }} {% t global.tagline %}. {% t pages.footrights %}</p>
         <div class="footer-links">
-            {% if site.pages.size > 1 %}
-                {% for page in site.pages %}
-                {% if page.title != "NotFound" and page.title.size > 0 %}
-                    {% unless page.url contains "page2" or page.url contains "page3" %}
-                    <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
-                    {{ page.title }}
-                    </a>
-                    {% endunless %}
+            <!--div class="row">
+                {% if site.pages.size > 1 %}
+                    {% for page in site.pages %}
+                    {% if page.title != "NotFound" and page.title.size > 0 %}
+                        {% unless page.url contains "page2" or page.url contains "page3" %}
+                        <a class="post-title" href="{{ site.baseurl }}{{ page.url }}">
+                        {{ page.title }}
+                        </a>
+                        {% endunless %}
+                    {% endif %}
+                    {% endfor %}
                 {% endif %}
-                {% endfor %}
-            {% endif %}
-            
+            </div-->
+            <div class="footer">
+                <span id="footer-links">
+                  <a href="{% tl root {{lang}} %}" class="footer-link">{% t global.home %}</a> <span class="separator">&bull;</span>
+                  <a href="" class="footer-link">{% t global.about %}</a> <span class="separator">&bull;</span>
+                  <a href="" class="footer-link">{% t global.imagen_corporate %}</a>
+                </span>
+              </div>
+            <hr>
+
             {% if site.lang == site.default_lang and site.default_locale_in_subfolder != true %}
                 <a href="/#features">{% t global.hwhy %}</a>
                 <a href="/#gallery">{% t global.hgallery %}</a>
@@ -38,6 +47,9 @@
                 </a>
             {% endif %}
             
+            <hr>
+            
+            {% tf footer.html %}
         </div>
     </div>
 </footer>
