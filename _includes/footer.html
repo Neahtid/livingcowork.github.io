@@ -1,5 +1,5 @@
- <!-- Footer -->
- <footer class="text-center">
+<!-- Footer -->
+<footer class="text-center">
     <div class="container">
         <div class="footer-links">
             <!--div class="row">
@@ -17,46 +17,46 @@
             </div-->
             <div class="footer">
                 <span id="footer-links">
-                {% unless page.namespace  == 'root' %}
-                <a href="{% tl root {{lang}} %}" class="footer-link">{% t global.home %}</a>
-                <span class="separator">&bull;</span>
-                {% endunless %}
-                {% unless page.namespace  == 'about' %}
-                <a href="{% tl about {{lang}} %}" class="footer-link">{% t global.about %}</a> 
-                <span class="separator">&bull;</span>
-                {% endunless %}
-                {% unless page.namespace  == 'corporate' %}
-                <a href="{% tl corporate {{lang}} %}" class="footer-link">{% t global.imagen_corporate %}</a>
-                {% endunless %}
+                    {% unless page.namespace == 'root' %}
+                    <a href="{% tl root {{lang}} %}" class="footer-link">{% t global.home %}</a>
+                    <span class="separator">&bull;</span>
+                    {% endunless %}
+                    {% unless page.namespace == 'about' %}
+                    <a href="{% tl about {{lang}} %}" class="footer-link">{% t global.about %}</a>
+                    <span class="separator">&bull;</span>
+                    {% endunless %}
+                    {% unless page.namespace == 'corporate' %}
+                    <a href="{% tl corporate {{lang}} %}" class="footer-link">{% t global.imagen_corporate %}</a>
+                    {% endunless %}
                 </span>
-              </div>
+            </div>
             <hr>
 
             {% if site.lang == site.default_lang and site.default_locale_in_subfolder != true %}
-                <a href="/#features">{% t global.hwhy %}</a>
-                <a href="/#gallery">{% t global.hgallery %}</a>
-                <a href="/#register">{% t global.hregitert %}</a>
-                <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
-                    <svg class="svg-icon orange">
-                        <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                    </svg><span>{% t global.footrsssub %}</span>
-                </a>
-                {% else %}
-                <a href="/{{ site.lang }}#features">{% t global.hwhy %}</a>
-                <span class="separator"> &bull; </span>
-                <a href="/{{ site.lang }}#gallery">{% t global.hgallery %}</a>
-                <span class="separator"> &bull; </span>
-                <a href="/{{ site.lang }}#register">{% t global.hregitert %}</a>
-                <span class="separator"> &bull; </span>
-                <a href="{{ 'feed.xml' }}" target="_blank">
-                    <svg class="svg-icon orange">
+            <a href="/#features">{% t global.hwhy %}</a>
+            <a href="/#gallery">{% t global.hgallery %}</a>
+            <a href="/#register">{% t global.hregitert %}</a>
+            <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
+                <svg class="svg-icon orange">
                     <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                    </svg><span>{% t global.footrsssub %}</span>
-                </a>
+                </svg><span>{% t global.footrsssub %}</span>
+            </a>
+            {% else %}
+            <a href="/{{ site.lang }}#features">{% t global.hwhy %}</a>
+            <span class="separator"> &bull; </span>
+            <a href="/{{ site.lang }}#gallery">{% t global.hgallery %}</a>
+            <span class="separator"> &bull; </span>
+            <a href="/{{ site.lang }}#register">{% t global.hregitert %}</a>
+            <span class="separator"> &bull; </span>
+            <a href="{{ 'feed.xml' }}" target="_blank">
+                <svg class="svg-icon orange">
+                    <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
+                </svg><span>{% t global.footrsssub %}</span>
+            </a>
             {% endif %}
-            
+
             <hr>
-            
+
             {% tf footer.html %}
         </div>
     </div>

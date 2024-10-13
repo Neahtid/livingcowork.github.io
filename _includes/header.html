@@ -3,13 +3,13 @@
   <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <div class="container-fluid custom-container">
       {% if site.lang == site.default_lang and site.default_locale_in_subfolder != true %}
-        <a class="navbar-brand" href="{{ site.baseurl_root }}/">{{ site.title }}</a>
+      <a class="navbar-brand" href="{{ site.baseurl_root }}/">{{ site.title }}</a>
       {% else %}
-        <a class="navbar-brand" href="{{ site.baseurl_root }}/{{ site.lang }}">{{ site.title }}</a>
+      <a class="navbar-brand" href="{{ site.baseurl_root }}/{{ site.lang }}">{{ site.title }}</a>
       {% endif %}
       <smal class="text-secondary">
         [{%t global.tagline %}]
-      </smal> 
+      </smal>
       <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -20,51 +20,29 @@
           {% unless site.lang == lang %}
           <li class="nav-item">
             {% if page.namespace %}
-            <a class="nav-link" data-lang="{{ lang }}" href="{% tl {{ page.namespace }} {{ lang }} %}" >
+            <a class="nav-link" data-lang="{{ lang }}" href="{% tl {{ page.namespace }} {{ lang }} %}">
               {% t langs.{{ lang }} %}
             </a>
             {% else %}
-              {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
-              <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}{{ page.url }}">
-                {% t langs.{{ lang }} %}
-              </a>
-              {% else %}
-              <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}">
-                {% t langs.{{ lang }} %}
-              </a>
-              {% endif %}
+            {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
+            <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}{{ page.url }}">
+              {% t langs.{{ lang }} %}
+            </a>
+            {% else %}
+            <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}">
+              {% t langs.{{ lang }} %}
+            </a>
+            {% endif %}
             {% endif %}
           </li>
           {% assign next = forloop.index | plus: 1 %}
-          
+
           {% endunless %}
           {% endfor %}
         </ul>
-        
-        
+
+
       </div>
     </div>
   </nav>
 </header>
-
-<!-- <ul class="navbar-nav ms-auto">
-  
-            {% if forloop.last != true and site.languages[forloop.index] != site.lang or site.languages[forloop.index] == site.lang and next < forloop.length %}
-            <span class="separator"> &bull; </span>
-          {% endif %}
-  {% if site.lang != "es" %}
-  <li class="nav-item">
-    <a class="nav-link" href="{% tl root es %}" data-lang="es">Spanish</a>
-  </li>
-  {% endif %}
-  {% if site.lang != "en" %}
-  <li class="nav-item">
-    <a class="nav-link" href="{% tl root en %}" data-lang="en">English</a>
-  </li>
-  {% endif %}
-  {% if site.lang != "pt" %}
-  <li class="nav-item">
-    <a class="nav-link" href="{% tl root pt %}" data-lang="pt">Portuguese</a>
-  </li>
-  {% endif %}
-</ul> -->
