@@ -41,6 +41,8 @@ plugins:
   - jekyll-multiple-languages-plugin
   - jekyll-timeago
 
+permalink: /:categories/:title/
+
 jekyll_timeago:
   depth: 2
   translations_path: '/_18n/*.yml'
