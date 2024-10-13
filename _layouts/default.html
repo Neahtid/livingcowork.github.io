@@ -19,6 +19,21 @@
 
     {%- include footer.html -%}
   </div>
+  <!-- Modal for Lightbox -->
+  <div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-body">
+                <img id="lightboxImage" src="" class="img-fluid" alt="" />
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                Cerrar
+                </button>
+            </div>
+        </div>
+    </div>
+  </div>
 
   <!-- scripts -->
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
@@ -71,6 +86,10 @@
             $('#lightboxImage').attr('src', imgSrc);
             $('#lightboxModal').modal('show');
         });
+        if(document.getElementById('copy')){
+          let currentYear = new Date().getFullYear();
+          document.getElementById('copy').textContent = `©${currentYear}`;
+        }
     });
   </script>
 </body>

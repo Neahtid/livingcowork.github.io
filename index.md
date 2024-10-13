@@ -29,7 +29,7 @@ permalink: /
                         {%- for post in posts -%}
                         <li class="list-group-item">
                             <a href="{{ site.baseurl }}{{ post.url }}">
-                            {{ post.title | escape }} 
+                            {{ post.title | escape }}
                             </a>
                             <br>
                             <small class="text-secondary">
@@ -175,22 +175,6 @@ permalink: /
         </div>
     </div>
 </section>
-
-<!-- Modal for Lightbox -->
-<div class="modal fade" id="lightboxModal" tabindex="-1" aria-labelledby="lightboxLabel" aria-hidden="true">
-    <div class="modal-dialog modal-dialog-centered">
-        <div class="modal-content">
-            <div class="modal-body">
-                <img id="lightboxImage" src="" class="img-fluid" alt="">
-            </div>
-            <div class="modal-footer">
-                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
-                {% t pages.hclose %}
-                </button>
-            </div>
-        </div>
-    </div>
-</div>
 
 <!-- Registration Section -->
 <section id="register" class="py-5">

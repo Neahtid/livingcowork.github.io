@@ -7,6 +7,9 @@
       {% else %}
         <a class="navbar-brand" href="{{ site.baseurl_root }}/{{ site.lang }}">{{ site.title }}</a>
       {% endif %}
+      <smal class="text-secondary">
+        [{%t global.tagline %}]
+      </smal> 
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
         aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -16,14 +19,20 @@
           {% for lang in site.languages %}
           {% unless site.lang == lang %}
           <li class="nav-item">
-            {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
-            <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}{{ page.url }}">
+            {% if page.namespace %}
+            <a class="nav-link" data-lang="{{ lang }}" href="{% tl {{ page.namespace }} {{ lang }} %}" >
               {% t langs.{{ lang }} %}
             </a>
             {% else %}
-            <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}">
-              {% t langs.{{ lang }} %}
-            </a>
+              {% if lang == site.default_lang and site.default_locale_in_subfolder != true %}
+              <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}{{ page.url }}">
+                {% t langs.{{ lang }} %}
+              </a>
+              {% else %}
+              <a class="nav-link" data-lang="{{ lang }}" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url }}">
+                {% t langs.{{ lang }} %}
+              </a>
+              {% endif %}
             {% endif %}
           </li>
           {% assign next = forloop.index | plus: 1 %}

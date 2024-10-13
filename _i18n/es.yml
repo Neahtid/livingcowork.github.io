@@ -6,7 +6,6 @@ langs:
   en: English
   es: Español
 pages:
-  includeexample: El siguiente texto es un parámetro de Jekyll include liquid tag
   homeh1: Espacio de trabajo en Buenos Aires
   homeh2: Trabajo ininterrumpido, privacidad, seguridad y comodidad para los trabajadores independientes, estudiantes, nuevas empresas y trabajadores remotos.
   homecta: Reserve tu lugar

@@ -1,5 +1,5 @@
 ---
-layout: title_sidebar
+layout: post_sidebar
 title: The Future of Work, How accommodation coworking spaces are revolutionizing work overview
 cover: cover.jpg
 date: 2024-10-11 13:06:00

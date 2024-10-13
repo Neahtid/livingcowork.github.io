@@ -1,5 +1,5 @@
 ---
-layout: title_sidebar
+layout: post_sidebar
 title: O futuro do trabalho, Como os espaços de coworking de acomodação estão revolucionando a visão geral do trabalho
 cover: cover.jpg
 date: 2024-10-11 13:06:00
