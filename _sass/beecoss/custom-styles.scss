@@ -1,4 +1,13 @@
-// Placeholder to allow defining custom styles that override everything else.
+  /* image container */
+  .img-container {
+    max-height: 270px; /* adjust as needed */
+    overflow: hidden;
+}
+
+.img-container img {
+    width: 100%;
+    height: auto;
+  }
 
 /* Tablets (768px and below) */
 @media only screen and (max-width: 768px) {
@@ -25,6 +34,7 @@
     .container {
         padding: 6px 18px;
     }
+
 }
 
 /* Smartphones in Portrait (480px and below) */
@@ -35,6 +45,10 @@
     }
     .container {
         margin-top: 0px!important;
+    }
+    /* image container */
+    .img-container {
+        max-height: 162px!important; /* adjust as needed */
     }
 }
 
@@ -62,3 +76,15 @@
     display: flex;
     justify-content: flex-start!important;
 }
+
+/* carousel */
+.carousel-control-prev span,
+.carousel-control-next span {
+  background-color: black;
+  border-radius: 50%; /* For rounded corners */
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f4f4f4;
+}
+
+
