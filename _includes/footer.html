@@ -16,22 +16,25 @@
             {% endif %}
             
             {% if site.lang == site.default_lang and site.default_locale_in_subfolder != true %}
-                <a href="/#features">{% t pages.hwhy %}</a>
-                <a href="/#gallery">{% t pages.hgallery %}</a>
-                <a href="/#register">{% t pages.hregitert %}</a>
+                <a href="/#features">{% t global.hwhy %}</a>
+                <a href="/#gallery">{% t global.hgallery %}</a>
+                <a href="/#register">{% t global.hregitert %}</a>
                 <a href="{{ site.feed.path | default: 'feed.xml' | absolute_url }}" target="_blank">
                     <svg class="svg-icon orange">
                         <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                    </svg><span>{% t pages.footrsssub %}</span>
+                    </svg><span>{% t global.footrsssub %}</span>
                 </a>
                 {% else %}
-                <a href="/{{ site.lang }}#features">{% t pages.hwhy %}</a>
-                <a href="/{{ site.lang }}#gallery">{% t pages.hgallery %}</a>
-                <a href="/{{ site.lang }}#register">{% t pages.hregitert %}</a>
+                <a href="/{{ site.lang }}#features">{% t global.hwhy %}</a>
+                <span class="separator"> &bull; </span>
+                <a href="/{{ site.lang }}#gallery">{% t global.hgallery %}</a>
+                <span class="separator"> &bull; </span>
+                <a href="/{{ site.lang }}#register">{% t global.hregitert %}</a>
+                <span class="separator"> &bull; </span>
                 <a href="{{ 'feed.xml' }}" target="_blank">
                     <svg class="svg-icon orange">
                     <use xlink:href="{{ 'assets/minima-social-icons.svg#rss' | relative_url }}"></use>
-                    </svg><span>{% t pages.footrsssub %}</span>
+                    </svg><span>{% t global.footrsssub %}</span>
                 </a>
             {% endif %}
             

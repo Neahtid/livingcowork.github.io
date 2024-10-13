@@ -1,6 +1,12 @@
 global:
   tagline: English
+  home: Home
   about: About Us
+  hwhy: Why Choose Us
+  hgallery: Gallery
+  hregitert: Register Now
+  footrsssub: RSS Subscribe
+  imagen_corporate: Corporate Image
 langs:
   pt: Português
   en: English
@@ -21,10 +27,7 @@ pages:
   whyT4: Comfort
   whyR4: Ergonomic furniture and a fully equipped environment ensure your comfort while you work.
 
-  hwhy: Why Choose Us
-  hgallery: Gallery
   hclose: Close
-  hregitert: Register Now
   hregisterfn: Name
   hregisterfe: Email
   hregisterfp: Phone
@@ -32,13 +35,9 @@ pages:
 
   precents: Recent Posts
 
-  footrights: All Rights Reserved.
-  footrsssub: RSS Subscribe
-
 titles:
   pagination: Pagination
   next: Next
-  imagen_corporate: Corporate Image
 
 jekyll_timeago:
   today: 'today'

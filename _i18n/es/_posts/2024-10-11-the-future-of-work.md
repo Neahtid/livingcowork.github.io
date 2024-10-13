@@ -1,12 +1,13 @@
 ---
-layout: title_sidebar
+layout: post_sidebar
 title: El futuro del trabajo, cómo los espacios de coworking con alojamiento están revolucionando el panorama laboral
 cover: cover.jpg
 date: 2024-10-11 13:06:00
 categories: es posts
 ---
-
+<header class="entry-header">
 En los últimos años, la forma en que trabajamos ha sufrido una transformación importante. Dado que el trabajo remoto se convierte en la norma para muchos profesionales, la demanda de entornos flexibles, dinámicos y productivos ha aumentado. La fuerza laboral moderna ya no encaja perfectamente en el modelo de oficina tradicional, lo que lleva al aumento de los espacios de coworking. Estos entornos de trabajo compartidos ofrecen a los trabajadores independientes, estudiantes universitarios, empresarios y empresas la oportunidad de hacer las cosas sin limitaciones.
+</header>
 
 Pero no todos los espacios de coworking son iguales. Mientras que la mayoría ofrecen servicios básicos (descensos, internet de alta velocidad, café y salas de reuniones), hay una nueva tendencia que está ganando tracción: espacios de coworking que también ofrecen alojamiento. Este concepto va más allá de la rutina de 9 a 5 habitual, combinando trabajos y espacios de vida para satisfacer las necesidades de una fuerza laboral más móvil y globalizada. Y Buenos Aires, un centro de creatividad e innovación, no es una excepción. He aquí por qué elegir un espacio de coworking con alojamiento podría ser el impulso de productividad que ha estado buscando.
 

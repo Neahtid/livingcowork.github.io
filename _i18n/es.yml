@@ -1,6 +1,12 @@
 global:
   tagline: Español
+  home: Inicio
   about: Nosotros
+  hwhy: Por qué elegirnos
+  hgallery: Galería
+  hregitert: Reserva tu lugar Ahora
+  footrsssub: Subscribir RSS
+  imagen_corporate: Imagen Corporativa
 langs:
   pt: Português
   en: English
@@ -21,10 +27,7 @@ pages:
   whyT4: Comodidad
   whyR4: Muebles ergonómicos y un entorno totalmente equipado aseguran su comodidad mientras trabaja.
 
-  hwhy: Por qué elegirnos
-  hgallery: Galería
   hclose: Cerrar
-  hregitert: Reserva tu lugar Ahora
   hregisterfn: Nombre
   hregisterfe: Email
   hregisterfp: Teléfono
@@ -32,13 +35,9 @@ pages:
 
   precents: Artículos recientes
 
-  footrights: Todos los Derechos Reservados.
-  footrsssub: Subscribir RSS
-
 titles:
   pagination: Paginación
   next: Próximo
-  imagen_corporate: Imagen Corporativa
 
 jekyll_timeago:
   today: 'hoy'

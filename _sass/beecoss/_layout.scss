@@ -164,3 +164,11 @@ footer {
               -ms-overflow-style: -ms-autohiding-scrollbar;
     }
   }
+
+  /** posts
+  */
+  .post-content {
+    p {
+      margin: $spacing-unit * 0.61 0;
+    }
+  }

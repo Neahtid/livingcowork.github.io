@@ -1,9 +1,13 @@
 ---
 layout: notitle_sidebar
 title: Imagen Corporativa
+namespace:     corportate
+permalink:     /imagem/
+permalink_en:  /image/
+permalink_es:  /imagen/
 ---
-<h1 class="text-center">{% t titles.imagen_corporate %}</h1>
-<div class="container text-center my-5">
+<h1 class="text-center">{% t global.imagen_corporate %}</h1>
+<div class="containerr text-center my-5">
   <!-- Gallery Section -->
   <section id="gallery" class="py-5 bg-light">
       <!-- Carousel Wrapper -->
