@@ -17,9 +17,17 @@
             </div-->
             <div class="footer">
                 <span id="footer-links">
-                  <a href="{% tl root {{lang}} %}" class="footer-link">{% t global.home %}</a> <span class="separator">&bull;</span>
-                  <a href="" class="footer-link">{% t global.about %}</a> <span class="separator">&bull;</span>
-                  <a href="" class="footer-link">{% t global.imagen_corporate %}</a>
+                {% unless page.namespace  == 'root' %}
+                <a href="{% tl root {{lang}} %}" class="footer-link">{% t global.home %}</a>
+                <span class="separator">&bull;</span>
+                {% endunless %}
+                {% unless page.namespace  == 'about' %}
+                <a href="{% tl about {{lang}} %}" class="footer-link">{% t global.about %}</a> 
+                <span class="separator">&bull;</span>
+                {% endunless %}
+                {% unless page.namespace  == 'corporate' %}
+                <a href="{% tl corporate {{lang}} %}" class="footer-link">{% t global.imagen_corporate %}</a>
+                {% endunless %}
                 </span>
               </div>
             <hr>

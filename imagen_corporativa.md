@@ -1,7 +1,7 @@
 ---
 layout: notitle_sidebar
 title: Imagen Corporativa
-namespace:     corportate
+namespace:     corporate
 permalink:     /imagem/
 permalink_en:  /image/
 permalink_es:  /imagen/
