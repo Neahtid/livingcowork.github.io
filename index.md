@@ -90,36 +90,17 @@ permalink: /
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery1.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 1">
+                                    <img src="/assets/gallery/thumbnails/gallery1.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 1">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery2.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 2">
+                                    <img src="/assets/gallery/thumbnails/gallery2.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 2">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery3.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 3">
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <div class="row">
-                            <div class="col-md-4">
-                                <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery4.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 4">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery5.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 5">
-                                </div>
-                            </div>
-                            <div class="col-md-4">
-                                <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery6.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 6">
+                                    <img src="/assets/gallery/thumbnails/gallery3.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 3">
                                 </div>
                             </div>
                         </div>
@@ -128,17 +109,17 @@ permalink: /
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery7.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 7">
+                                    <img src="/assets/gallery/thumbnails/gallery4.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 4">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery8.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 8">
+                                    <img src="/assets/gallery/thumbnails/gallery5.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 5">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery9.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 9">
+                                    <img src="/assets/gallery/thumbnails/gallery6.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 6">
                                 </div>
                             </div>
                         </div>
@@ -147,17 +128,36 @@ permalink: /
                         <div class="row">
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery10.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 10">
+                                    <img src="/assets/gallery/thumbnails/gallery7.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 7">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery11.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 11">
+                                    <img src="/assets/gallery/thumbnails/gallery8.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 8">
                                 </div>
                             </div>
                             <div class="col-md-4">
                                 <div class="img-container mb-2">
-                                    <img src="/assets/gallery/gallery12.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 12">
+                                    <img src="/assets/gallery/thumbnails/gallery9.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 9">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <div class="row">
+                            <div class="col-md-4">
+                                <div class="img-container mb-2">
+                                    <img src="/assets/gallery/thumbnails/gallery10.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 10">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="img-container mb-2">
+                                    <img src="/assets/gallery/thumbnails/gallery11.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 11">
+                                </div>
+                            </div>
+                            <div class="col-md-4">
+                                <div class="img-container mb-2">
+                                    <img src="/assets/gallery/thumbnails/gallery12.jpg" class="d-block w-100 img-thumbnail gallery-img" alt="Office Space 12">
                                 </div>
                             </div>
                         </div>

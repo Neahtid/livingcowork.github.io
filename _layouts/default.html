@@ -83,6 +83,10 @@
         // When an image is clicked, open it in the modal
         $('.gallery-img').on('click', function() {
             var imgSrc = $(this).attr('src');
+            const hasThumbnails = imgSrc.includes('/thumbnails/');
+            if (hasThumbnails) {
+              imgSrc = imgSrc.replace(/thumbnails\/?/g, '');
+            }
             $('#lightboxImage').attr('src', imgSrc);
             $('#lightboxModal').modal('show');
         });
