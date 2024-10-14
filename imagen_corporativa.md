@@ -29,7 +29,6 @@ permalink_es: /imagen/
                                     class="d-block w-100 img-thumbnail gallery-img" alt="Wall Mounted Signage">
                             </div>
                         </div>
-                        
                     </div>
                 </div>
                 <div class="carousel-item">

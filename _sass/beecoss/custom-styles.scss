@@ -1,90 +1,99 @@
   /* image container */
   .img-container {
-    max-height: 270px; /* adjust as needed */
-    overflow: hidden;
-}
-
-.img-container img {
-    width: 100%;
-    height: auto;
+      max-height: 270px;
+      /* adjust as needed */
+      overflow: hidden;
   }
 
-/* Tablets (768px and below) */
-@media only screen and (max-width: 768px) {
-    /* Your CSS styles for tablets */
-    body {
-        background-color: #f9ffff;
-    }
-    .container {
-        padding: 10px;
-    }
-    .home {
-        .sidebar {
-            margin-top: $spacing-unit * 1.3;
-        }
-    }
-}
+  .img-container img {
+      width: 100%;
+      height: auto;
+  }
 
-/* Smartphones in Landscape (576px and below) */
-@media only screen and (max-width: 576px) {
-    /* Your CSS styles for smartphones in landscape */
-    body {
-        background-color: #fffff9;
-    }
-    .container {
-        padding: 6px 18px;
-    }
+  /* Tablets (768px and below) */
+  @media only screen and (max-width: 768px) {
 
-}
+      /* Your CSS styles for tablets */
+      body {
+          background-color: #f9ffff;
+      }
 
-/* Smartphones in Portrait (480px and below) */
-@media only screen and (max-width: 480px) {
-    /* Your CSS styles for smartphones in portrait */
-    body {
-        background-color: #fff9ff;
-    }
-    .container {
-        margin-top: 0px!important;
-    }
-    /* image container */
-    .img-container {
-        max-height: 162px!important; /* adjust as needed */
-    }
-}
+      .container {
+          padding: 10px;
+      }
 
-/* gallery */
-.gallery-img {
-    cursor: pointer;
-}
+      .home {
+          .sidebar {
+              margin-top: $spacing-unit * 1.3;
+          }
+      }
+  }
 
-.gallery {
-    img {
-        max-width: 100px;
-    }
-}
+  /* Smartphones in Landscape (576px and below) */
+  @media only screen and (max-width: 576px) {
 
-/* sidebar post list */
-.sidebar {
-    .list-group li {
-        background-color: $background-color-recents-sidebar;
-        text-align: left;
-    } 
-}
+      /* Your CSS styles for smartphones in landscape */
+      body {
+          background-color: #fffff9;
+      }
 
-/* custom navbar */
-.custom-container {
-    display: flex;
-    justify-content: flex-start!important;
-}
+      .container {
+          padding: 6px 18px;
+      }
 
-/* carousel */
-.carousel-control-prev span,
-.carousel-control-next span {
-  background-color: black;
-  border-radius: 50%; /* For rounded corners */
-  width: 40px;
-  height: 40px;
-  border: 3px solid #f4f4f4;
-}
+  }
 
+  /* Smartphones in Portrait (480px and below) */
+  @media only screen and (max-width: 480px) {
 
+      /* Your CSS styles for smartphones in portrait */
+      body {
+          background-color: #fff9ff;
+      }
+
+      .container {
+          margin-top: 0px !important;
+      }
+
+      /* image container */
+      .img-container {
+          max-height: 162px !important;
+          /* adjust as needed */
+      }
+  }
+
+  /* gallery */
+  .gallery-img {
+      cursor: pointer;
+  }
+
+  .gallery {
+      img {
+          max-width: 100px;
+      }
+  }
+
+  /* sidebar post list */
+  .sidebar {
+      .list-group li {
+          background-color: $background-color-recents-sidebar;
+          text-align: left;
+      }
+  }
+
+  /* custom navbar */
+  .custom-container {
+      display: flex;
+      justify-content: flex-start !important;
+  }
+
+  /* carousel */
+  .carousel-control-prev span,
+  .carousel-control-next span {
+      background-color: black;
+      border-radius: 50%;
+      /* For rounded corners */
+      width: 40px;
+      height: 40px;
+      border: 3px solid #f4f4f4;
+  }

@@ -14,31 +14,31 @@ $color-scheme-dark: false !default;
 // Light mode
 // ----------
 
-$lm-brand-color:           #828282 !default;
-$lm-brand-color-light:     scale-color($lm-brand-color, $lightness: 40%) !default;
-$lm-brand-color-dark:      scale-color($lm-brand-color, $lightness: -25%) !default;
+$lm-brand-color: #828282 !default;
+$lm-brand-color-light: scale-color($lm-brand-color, $lightness: 40%) !default;
+$lm-brand-color-dark: scale-color($lm-brand-color, $lightness: -25%) !default;
 
-$lm-site-title-color:      $lm-brand-color-dark !default;
+$lm-site-title-color: $lm-brand-color-dark !default;
 
-$lm-text-color:            #111111 !default;
-$lm-background-color:      #f4f4f4 !default;
+$lm-text-color: #111111 !default;
+$lm-background-color: #f4f4f4 !default;
 $lm-code-background-color: #eeeeff !default;
 
 $background-color-recents-sidebar: #fcfcfc;
 
-$lm-link-base-color:       #2a7ae2 !default;
-$lm-link-visited-color:    scale-color($lm-link-base-color, $lightness: -15%) !default;
-$lm-link-hover-color:      $lm-text-color !default;
+$lm-link-base-color: #2a7ae2 !default;
+$lm-link-visited-color: scale-color($lm-link-base-color, $lightness: -15%) !default;
+$lm-link-hover-color: $lm-text-color !default;
 
-$lm-border-color-01:       $lm-brand-color-light !default;
-$lm-border-color-02:       scale-color($lm-brand-color, $lightness: 35%) !default;
-$lm-border-color-03:       $lm-brand-color-dark !default;
+$lm-border-color-01: $lm-brand-color-light !default;
+$lm-border-color-02: scale-color($lm-brand-color, $lightness: 35%) !default;
+$lm-border-color-03: $lm-brand-color-dark !default;
 
-$lm-table-text-color:      scale-color($lm-text-color, $lightness: 18%) !default;
-$lm-table-zebra-color:     scale-color($lm-brand-color, $lightness: 46%) !default;
+$lm-table-text-color: scale-color($lm-text-color, $lightness: 18%) !default;
+$lm-table-zebra-color: scale-color($lm-brand-color, $lightness: 46%) !default;
 $lm-table-header-bg-color: scale-color($lm-brand-color, $lightness: 43%) !default;
-$lm-table-header-border:   scale-color($lm-brand-color, $lightness: 37%) !default;
-$lm-table-border-color:    $lm-border-color-01 !default;
+$lm-table-header-border: scale-color($lm-brand-color, $lightness: 37%) !default;
+$lm-table-border-color: $lm-border-color-01 !default;
 
 // Mode selection
 // --------------
