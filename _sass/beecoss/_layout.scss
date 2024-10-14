@@ -23,7 +23,7 @@ $random-image-url: nth($background-images, $random-image-index);
   }
 
   header .overlay {
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.18);
     height: 100%;
     display: flex;
     justify-content: center;
