@@ -5,9 +5,18 @@ body {
   background-color: $lm-background-color;
 }
 
+$background-images: (
+  '/assets/img/coworking-header1.jpg',
+  '/assets/img/coworking-header2.jpg',
+  '/assets/img/coworking-header3.jpg',
+  '/assets/img/coworking-header4.jpg'
+);
+$random-image-index: random(length($background-images));
+$random-image-url: nth($background-images, $random-image-index);
+
 .home {
   header.landing {
-    background: url('/assets/img/coworking-header.jpg') no-repeat center center;
+    background: url($random-image-url) no-repeat center center;
     background-size: cover;
     color: #fff;
     height: 100vh;
