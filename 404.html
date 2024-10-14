@@ -20,3 +20,13 @@ title: NotFound
   <p>The requested page could not be found.</p>
   <p>Go back to <a href="/">{% t global.home %}</a>.</p>
 </div>
+<script>
+  if (typeof gtag != "undefined") {
+    gtag('event', 'page_not_found', { 'event_category': 'page_view', 'event_label': '404.htm' });
+  }
+  window.dataLayer = window.dataLayer || [];
+  window.dataLayer.push({
+    event: 'page_not_found',
+    page_path: window.location.pathname
+  });
+</script>

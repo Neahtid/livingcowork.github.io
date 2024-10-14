@@ -69,11 +69,33 @@
               $(form).html('<p class="text-center">' + thanks + '</p>');
               console.warn(`statusCode: 0`);
               sb.prop('disabled', false);
+              if (typeof ga != "undefined") {
+                ga('send', 'event', 'notfound', 'form', 'registerForm1');
+              }
+              if (typeof gtag != "undefined") {
+                gtag('event', 'submit', { 'event_category': 'form', 'event_label': 'registerForm2' });
+              }
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({
+                event: 'form_submit',
+                form_id: 'registerForm3'
+              });
             },
             200: function () {
               $(form).trigger("reset");
               $(form).html('<p class="text-center">' + thanks + '</p>');
               sb.prop('disabled', false);
+              if (typeof ga != "undefined") {
+                ga('send', 'event', 'notfound', 'form', 'registerForm1');
+              }
+              if (typeof gtag != "undefined") {
+                gtag('event', 'submit', { 'event_category': 'form', 'event_label': 'registerForm2' });
+              }
+              window.dataLayer = window.dataLayer || [];
+              window.dataLayer.push({
+                event: 'form_submit',
+                form_id: 'registerForm3'
+              });
             }
           }
         });
