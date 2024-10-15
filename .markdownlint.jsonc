@@ -7,9 +7,10 @@
     "default": true,
     "files": {
         "ignore": [
-            "_i18n/en/_posts/**",
-            "_i18n/es/_posts/**",
-            "_i18n/pt/_posts/**"
+            "CNAME",
+            "_i18n/en/_posts/*",
+            "_i18n/es/_posts/*",
+            "_i18n/pt/_posts/*"
         ]
     },
 
