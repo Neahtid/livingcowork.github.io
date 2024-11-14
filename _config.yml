@@ -1,17 +1,3 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
-#
-# If you need help with YAML syntax, here are some quick references for you:
-# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
-# https://learnxinyminutes.com/docs/yaml/
-#
 # Site settings
 # These are used to personalize your new site. If you look in the HTML files,
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
@@ -25,14 +11,14 @@ description: >- # this means to ignore newlines until "baseurl:"
   Enjoy uninterrupted work with privacy, safety, and comfort.
 
   Perfect for freelancers, students, remote workers, startups, and small business owners.
-
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://livingworkspace.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 slogan: "Privacy, Security and Comfort."
 keywords: "coworking, Buenos Aires, remote work, freelancers, startups, students, private office, safety, comfort"
 logo: "https://livingworkspace.github.io/assets/logo-black.png"
+
+# Site Settings
 twitter_username: LivingWorkspace
-github_username:  LivingWorkspace
 google_analytics: "G-7SS07FXHTW"
 
 # Build settings
@@ -42,6 +28,7 @@ plugins:
   - jekyll-timeago
 
 permalink: /:categories/:title/
+#permalink: /:categories/:year/:month/:day/:title:output_ext
 
 jekyll_timeago:
   depth: 2
