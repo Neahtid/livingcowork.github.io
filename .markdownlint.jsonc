@@ -1,32 +1,42 @@
 {
-    /*
-        This option sets the default behavior for all rules.
-        If set to true, all rules will be enabled by default.
-        If set to false, all rules will be disabled by default.
-    */
     "default": true,
-    "files": {
-        "ignore": [
-            "CNAME",
-            "_i18n/en/_posts/*",
-            "_i18n/es/_posts/*",
-            "_i18n/pt/_posts/*"
-        ]
+    "MD004": {
+      "style": "dash"
     },
-
-    /*
-        MD033/no-inline-html: Inline HTML
-    */
-    "MD033": false,
-
-    /*
-        This is an example of customizing a specific rule (MD013).
-        You can adjust the rule's severity levels (warning or error)
-        or provide a custom error message.
-        MD013/line-length: Line length [Expected: 80; Actual: 92
-    */
-
-    "MD013": {
-        "line_length": 200
-    }
-}
+    "MD007": {
+      "indent": 2
+    },
+    "MD010": false,
+    "MD013": false,
+    "MD026": false,
+    "MD041": false,
+    "MD033": {
+      "allowed_elements": [
+        "img",
+        "div",
+        "hr",
+        "br",
+        "p",
+        "a",
+        "b",
+        "i",
+        "span",
+        "ul",
+        "ol",
+        "li",
+        "form",
+        "input",
+        "label",
+        "textarea",
+        "button",
+        "label",
+        "header",
+        "section",
+        "h1",
+        "h2",
+        "h3",
+        "embed"
+      ]
+    },
+    "no-hard-tabs": false
+  }
