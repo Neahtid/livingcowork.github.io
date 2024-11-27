@@ -1,27 +1,27 @@
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-
-title: Living Workspace
+# LivingWorkspace
 name: LivingWorkspace
+author: Rodrigo Cancino (Coto)
+
+# ---- Main settings ----
+title: Living Workspace
 description: >- # this means to ignore newlines until "baseurl:"
   Your Private, Safe & Comfortable Workspace in Buenos Aires.
   Enjoy uninterrupted work with privacy, safety, and comfort.
 
-  Perfect for freelancers, students, remote workers, startups, and small business owners.
+  Perfect for freelancers, students, remote workers, startups, 
+  and small business owners.
+keywords: "coworking, Buenos Aires, remote work, freelancers, startups, students, private office, safety, comfort"
+slogan: "Workspace with Privacy, Security and Comfort."
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://livingworkspace.github.io" # the base hostname & protocol for your site, e.g. http://example.com
-slogan: "Privacy, Security and Comfort."
-keywords: "coworking, Buenos Aires, remote work, freelancers, startups, students, private office, safety, comfort"
-logo: "https://livingworkspace.github.io/assets/logo-black.png"
-
-# Site Settings
-twitter_username: LivingWorkspace
+logo: "https://livingworkspace.github.io/assets/img/logo.png"
+color_main: "#091C99"
 google_analytics: "G-7SS07FXHTW"
 
-# Build settings
+# ---- Secondary settings ----
+twitter_username: LivingWorkspace
+
+# ---- Jekyll settings ----
 plugins:
   - jekyll-feed
   - jekyll-multiple-languages-plugin
@@ -40,18 +40,13 @@ jekyll_timeago:
     - 'es'
     - 'pt'
 
-# jekyll-multiple-languages-plugin settings:
+# jekyll-multiple-languages-plugin settings
 languages: ["pt", "en", "es"]
-
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico"]
 
 
 
 # Exclude from processing.
-# The following items will not be processed, by default.
-# Any item listed under the `exclude:` key here will be automatically added to
-# the internal "default list".
-#
 # Excluded items can be processed by explicitly listing the directories or
 # their entries' file path in the `include:` list.
 #
