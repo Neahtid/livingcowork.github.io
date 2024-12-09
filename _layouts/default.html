@@ -39,19 +39,20 @@
         const email = document.getElementById('email').value;
         const name = document.getElementById('name').value;
         const phone = document.getElementById('phone').value;
+        const message = `Phone: ${phone}`;
+        const source = `livingworkspace`;
 
-        var URL = "https://docs.google.com/forms/d/1pOhP-Dvo5QKZirdKJowjZLi0EnZKYU2IFydh82L1730/formResponse";
-
+        var URL = "https://docs.google.com/forms/d/1CpamEupan42CHwtJN1VqJnjgoQGud8SI2WAb9XCVqPU/formResponse";
         var thanks = `Thank you for registering ${name}! We will be in touch soon.`;
 
         sb.prop('disabled', true);
         $.ajax({
           url: URL,
           data: {
-            "entry.1781500597": name,
-            "entry.1640447617": email,
-            "entry.297979220": phone,
-            "entry.2040870261": "sent from livingworkspace site"
+            "entry.1155430950": email,
+            "entry.545860963": name,
+            "entry.1997542075": message,
+            "entry.26006045": source
           },
           type: "POST",
           dataType: "xml",
