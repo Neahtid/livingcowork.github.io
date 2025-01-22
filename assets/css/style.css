@@ -1,0 +1,243 @@
+/**
+* Home
+*/
+body {
+  background-color: #f4f4f4;
+}
+
+.home {
+  /* feature */
+  /* feature */
+}
+.home header.landing {
+  background: url("/assets/img/coworking-header3.jpg") no-repeat center center;
+  background-size: cover;
+  color: #fff;
+  height: 100vh;
+}
+.home header .overlay {
+  background-color: rgba(0, 0, 0, 0.18);
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.home .gallery img {
+  width: 100%;
+  height: auto;
+}
+.home .cta-button {
+  background: #ff6347;
+  border: 1px solid #ff6347;
+  color: white;
+  padding: 15px 30px;
+  text-decoration: none;
+  border-radius: 5px;
+  font-size: 1.2em;
+  margin-top: 20px;
+  display: inline-block;
+}
+.home .features-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+.home .feature-item {
+  background: #FFFFFF;
+  padding: 20px;
+  border-radius: 10px;
+  text-align: center;
+}
+
+/**
+   * Footer
+   */
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px 0;
+}
+footer .footer-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/**
+   * Wrapper
+   */
+.page,
+.post {
+  max-width: calc(800px - (30px));
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+@media screen and (min-width: 800px) {
+  .page,
+  .post {
+    max-width: calc(800px - 30px * 2);
+    padding-right: 30px;
+    padding-left: 30px;
+  }
+}
+.page .page-content,
+.post .page-content {
+  padding-bottom: 39px;
+}
+
+/**
+   * Clearfix
+   */
+.page:after,
+.post:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/**
+   * Icons
+   */
+.orange {
+  color: #f66a0a;
+}
+
+.grey {
+  color: #828282;
+}
+
+.svg-icon {
+  width: 1.25em;
+  height: 1.25em;
+  display: inline-block;
+  fill: currentColor;
+  vertical-align: text-bottom;
+  overflow: visible;
+  margin: 0 6px;
+}
+
+/**
+   * Tables
+   */
+table {
+  margin-bottom: 30px;
+  width: 100%;
+  text-align: left;
+  color: rgb(59.84, 59.84, 59.84);
+  border-collapse: collapse;
+  border: 1px solid #b4b4b4;
+}
+table tr:nth-child(even) {
+  background-color: rgb(187.5, 187.5, 187.5);
+}
+table th,
+table td {
+  padding: 10px 15px;
+}
+table th {
+  background-color: rgb(183.75, 183.75, 183.75);
+  border: 1px solid rgb(176.25, 176.25, 176.25);
+}
+table td {
+  border: 1px solid #b4b4b4;
+}
+@media screen and (max-width: 800px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+  }
+}
+
+/** posts
+  */
+.post-content p {
+  margin: 18.3px 0;
+}
+
+/* image container */
+.img-container {
+  max-height: 270px;
+  /* adjust as needed */
+  overflow: hidden;
+}
+
+.img-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Tablets (768px and below) */
+@media only screen and (max-width: 768px) {
+  /* Your CSS styles for tablets */
+  body {
+    background-color: #f9ffff;
+  }
+  .container {
+    padding: 10px;
+  }
+  .home .sidebar {
+    margin-top: 39px;
+  }
+}
+/* Smartphones in Landscape (576px and below) */
+@media only screen and (max-width: 576px) {
+  /* Your CSS styles for smartphones in landscape */
+  body {
+    background-color: #fffff9;
+  }
+  .container {
+    padding: 6px 18px;
+  }
+}
+/* Smartphones in Portrait (480px and below) */
+@media only screen and (max-width: 480px) {
+  /* Your CSS styles for smartphones in portrait */
+  body {
+    background-color: #fff9ff;
+  }
+  .container {
+    margin-top: 0px !important;
+  }
+  /* image container */
+  .img-container {
+    max-height: 162px !important;
+    /* adjust as needed */
+  }
+}
+/* gallery */
+.gallery-img {
+  cursor: pointer;
+}
+
+.gallery img {
+  max-width: 100px;
+}
+
+/* sidebar post list */
+.sidebar .list-group li {
+  background-color: #fcfcfc;
+  text-align: left;
+}
+
+/* custom navbar */
+.custom-container {
+  display: flex;
+  justify-content: flex-start !important;
+}
+
+/* carousel */
+.carousel-control-prev span,
+.carousel-control-next span {
+  background-color: black;
+  border-radius: 50%;
+  /* For rounded corners */
+  width: 40px;
+  height: 40px;
+  border: 3px solid #f4f4f4;
+}
+
+/*# sourceMappingURL=style.css.map */
