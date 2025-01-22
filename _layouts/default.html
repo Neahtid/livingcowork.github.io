@@ -139,10 +139,10 @@
         'en': '/en/',
         'es': '/es/'
       }
-      let userLangDetetcted = userLanguage.substring(0,2);
-      if (redirects[userLangDetetcted]){
-        console.log(`redirecting ${userLangDetetcted} to ${redirects[userLangDetetcted]}`);
-        window.location.replace(redirects[userLangDetetcted])
+      let userLangDetected = userLanguage.substring(0,2);
+      if (redirects[userLangDetected]){
+        console.log(`redirecting ${userLangDetected} to ${redirects[userLangDetected]}`);
+        window.location.replace(redirects[userLangDetected])
         localStorage.setItem('hasBeenRedirected', true);
       }
     }
